@@ -72,23 +72,27 @@ body {
 
 /* about section start*/
 .about-web-dev-main-container {
-    margin: 110px auto;
+    margin: 110px;
     width: 1140px;
-    height: 1395px;
+    height: 1220px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
     /* border: 2px solid green; */
 }
 
 .about-web-dev-container {
     width: 946px;
-    height: 1072px;
+    height: 1035px;
     /* border: 2px solid red; */
     margin: 78px auto;
-    text-align: center;
+    margin-top: 20px;
 }
-/* 
+
 .about-web-title-container {
-    border: 2px solid violet;
-} */
+    /* border: 2px solid violet; */
+    text-align: center;
+    margin-top: 20px;
+}
 
 .about-web-title-container .about-web-title {
     color: rgb(13, 19, 33);
@@ -102,3 +106,76 @@ body {
     color: rgb(13, 19, 33);
 
 }
+
+.about-web-dev-card-container {
+    width: 946px;
+    height: 1030px;
+    border-radius: 16px;
+    /* 
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%); */
+    /* border: 2px solid gold; */
+}
+
+.about-web-dev-card-container .about-card {
+    width: 850px;
+    height: 240px;
+    /* border: 2px solid rgb(0, 38, 255); */
+    margin: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+
+}
+
+.about-card-desc {
+    height: auto;
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-card img {
+    max-width: 40%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.about-card-desc .title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.subtitle {
+    margin-top: 15px;
+    width: 468px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    line-height: 26px;
+}
+
+.about-web-btn {
+    margin-top: 50px;
+}
+
+.about-btn {
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* about section end */
+
+
+/* insperation section start  */
+
+/* {
+    width: 1140px;
+    height: 777px;
+} */
