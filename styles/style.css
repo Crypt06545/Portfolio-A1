@@ -72,7 +72,7 @@ body {
 
 /* about section start*/
 .about-web-dev-main-container {
-    margin: 110px;
+    margin: 130px 130px 130px 175px;
     width: 1140px;
     height: 1220px;
     border-radius: 16px;
@@ -111,6 +111,7 @@ body {
     width: 946px;
     height: 1030px;
     border-radius: 16px;
+    margin-top: 50px;
     /* 
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%); */
     /* border: 2px solid gold; */
@@ -172,10 +173,49 @@ body {
 
 /* about section end */
 
-
-/* insperation section start  */
-
-/* {
+.inspiration-section-container {
     width: 1140px;
     height: 777px;
-} */
+    /* border: 2px solid red; */
+    margin: 160px;
+}
+
+.inspiration-section-text-content {
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 852px;
+    height: 115px;
+    margin: 0px auto;
+
+}
+
+.inspiration-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.inspiration-details {
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+.inspiration-youtube-box {
+    width: 1050px;
+    height: 550px;
+    margin: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    /* border: 2px solid green; */
+
+
+
+}
+
+.youtube-content {
+    margin: 20px;
+}
+
+/* insperation section start  */
