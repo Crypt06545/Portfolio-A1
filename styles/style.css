@@ -10,12 +10,13 @@ body {
     font-family: Azeret Mono;
 }
 
-/* banner section */
+/* banner section start */
 
 .main-hero-banner {
     width: 1440px;
     height: 652px;
-    border: 3px dashed rgb(13, 19, 33); /* need to fix something*/
+    border: 3px dashed rgb(13, 19, 33);
+    /* need to fix something*/
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -25,18 +26,14 @@ body {
 .hero-banner-container {
     width: 998px;
     height: 582px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin: 20px auto;
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* justify-items: center; */
     justify-content: center;
 }
 
-/* .image-hero {
-    margin-top: -100px;
-} */
 
 .banner-title {
     margin-top: 30px;
@@ -66,4 +63,42 @@ body {
     font-weight: 600;
     text-align: center;
     background: rgb(13, 19, 33);
+    cursor: pointer;
+}
+
+/* banner section end */
+
+
+
+/* about section start*/
+.about-web-dev-main-container {
+    margin: 110px auto;
+    width: 1140px;
+    height: 1395px;
+    /* border: 2px solid green; */
+}
+
+.about-web-dev-container {
+    width: 946px;
+    height: 1072px;
+    /* border: 2px solid red; */
+    margin: 78px auto;
+    text-align: center;
+}
+/* 
+.about-web-title-container {
+    border: 2px solid violet;
+} */
+
+.about-web-title-container .about-web-title {
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.about-web-title-container .about-web-subtitle {
+    margin-top: 15px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+
 }
