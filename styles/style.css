@@ -77,19 +77,19 @@ body {
     height: 1220px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    /* border: 2px solid green; */
+
 }
 
 .about-web-dev-container {
     width: 946px;
     height: 1035px;
-    /* border: 2px solid red; */
+
     margin: 78px auto;
     margin-top: 20px;
 }
 
 .about-web-title-container {
-    /* border: 2px solid violet; */
+
     text-align: center;
     margin-top: 20px;
 }
@@ -173,16 +173,16 @@ body {
 
 /* about section end */
 
+/* insperation section start  */
+
 .inspiration-section-container {
     width: 1140px;
     height: 777px;
-    /* border: 2px solid red; */
     margin: 160px;
 }
 
 .inspiration-section-text-content {
     text-align: center;
-    /* border: 2px solid red; */
     width: 852px;
     height: 115px;
     margin: 0px auto;
@@ -210,12 +210,105 @@ body {
     border-radius: 16px;
     /* border: 2px solid green; */
 
-
-
 }
 
 .youtube-content {
     margin: 20px;
 }
 
-/* insperation section start  */
+/* insperation section end  */
+
+
+/* target section start */
+.target-section-main-container {
+    width: 1140px;
+    height: 465px;
+    margin: 160px;
+
+}
+
+.target-section-text-container {
+    width: 946px;
+    height: 115px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.target-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.target-subtitle {
+    color: rgb(13, 19, 33);
+    line-height: 25px;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+.target-card-section {
+    margin-top: 27px;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.target-card {
+    margin: 15px;
+    width: 325px;
+    height: 275px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.target-card img {
+    margin-top: 10px;
+}
+
+#card-1 {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+#card-2 {
+    background: rgba(0, 76, 232, 0.05);
+
+}
+
+#card-3 {
+    background: rgba(255, 223, 0, 0.05);
+
+}
+
+.card-title {
+    color: rgb(13, 19, 33);
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-desc {
+    opacity: 0.7;
+    margin-top: 20px;
+
+}
+
+
+.card-text-container {
+    width: 284px;
+    height: 140px;
+}
+
+.learn-more-lin {
+    margin-top: 10px;
+}
+
+.learn-more {
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+    line-height: 19px;
+
+}
