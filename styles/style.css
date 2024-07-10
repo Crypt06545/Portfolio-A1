@@ -15,7 +15,7 @@ body {
 .main-hero-banner {
     width: 1440px;
     height: 652px;
-    border: 2px dashed rgb(190, 190, 190);
+    border: 2px solid rgb(255, 255, 255);
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -216,6 +216,10 @@ body {
 
 .youtube-content {
     margin: 22px;
+}
+
+.iframe {
+    border-radius: 16px;
 }
 
 /* insperation section end  */
